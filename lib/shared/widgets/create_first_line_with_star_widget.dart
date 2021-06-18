@@ -5,7 +5,7 @@ class FirstLineWithStar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.only(left: 8.0, top: 1.5, right: 8.0),
+      padding: const EdgeInsets.only(left: 8.0, top: 4.0, right: 8.0),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [

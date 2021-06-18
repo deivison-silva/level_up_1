@@ -3,20 +3,17 @@ import 'package:flutter/material.dart';
 class JapanFlag extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Stack(
-        children: [
-          Container(
-            color: Colors.white,
+    return Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        Container(
+          height: MediaQuery.of(context).size.height * 0.5,
+          decoration: BoxDecoration(
+            shape: BoxShape.circle,
+            color: Colors.red,
           ),
-          Container(
-            decoration: BoxDecoration(
-              shape: BoxShape.circle,
-              color: Colors.red,
-            ),
-          ),
-        ],
-      ),
+        ),
+      ],
     );
   }
 }

@@ -26,8 +26,8 @@ class UnitedStateFlag extends StatelessWidget {
           ],
         ),
         Container(
-          width: 210.0,
-          height: 155.0,
+          width: MediaQuery.of(context).size.width * 0.35,
+          height: 172.0,
           color: Colors.blue[900],
           child: Column(
             children: [
